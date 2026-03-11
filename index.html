@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HARINDINTWALI Emilien | Full Stack Developer</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* General styles */
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif;}
+body { background:#0f172a; color:white; line-height:1.6; scroll-behavior:smooth; }
+
+/* Header */
+header { height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(135deg,#0f172a,#1e293b);}
+header h1{ font-size:55px; color:#38bdf8;}
+header p{ margin-top:10px; font-size:20px; color:#cbd5f5;}
+.btn{ margin-top:25px; padding:12px 30px; background:#38bdf8; border:none; border-radius:30px; color:black; font-weight:bold; cursor:pointer; transition:0.3s;}
+.btn:hover{ transform:scale(1.1); }
+
+/* Sections */
+section { padding:80px 10%; }
+.section-title { font-size:35px; margin-bottom:40px; color:#38bdf8; text-align:center; }
+
+/* Skills cards */
+.skills{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; }
+.card{ background:#1e293b; padding:30px; border-radius:10px; transition:0.4s; text-align:center; }
+.card:hover{ transform:translateY(-10px); box-shadow:0 10px 30px rgba(0,0,0,0.6); }
+.card i{ font-size:35px; color:#38bdf8; margin-bottom:15px; }
+
+/* Projects cards */
+.projects{ display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:25px; }
+.project{ background:#1e293b; padding:25px; border-radius:10px; transition:0.3s; }
+.project:hover{ transform:scale(1.05); }
+
+/* Contact */
+.contact{ text-align:center; font-size:18px; }
+.contact i{ margin-right:10px; }
+
+/* Footer */
+footer{ background:black; text-align:center; padding:20px; margin-top:50px; }
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>HARINDINTWALI Emilien</h1>
+<p>Full Stack Developer | Networking Specialist | IT Student</p>
+<button class="btn" onclick="scrollToSection()">Explore My Work</button>
+</header>
+
+<!-- About Me -->
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p style="text-align:center; max-width:900px; margin:auto; font-size:18px;">
+I am an Information Technology student at Rwanda Polytechnic – RP Karongi College.  
+I am a **Full Stack Developer** capable in **frontend and backend development**, building microservices, APIs, and robust PHP applications.  
+I also specialize in **networking, large-scale infrastructure, and IT systems administration**.
+</p>
+</section>
+
+<!-- Skills -->
+<section>
+<h2 class="section-title">Technical Skills</h2>
+<div class="skills">
+<div class="card">
+<i class="fas fa-network-wired"></i>
+<h3>Networking</h3>
+<p>LAN/WAN, Wireless, CCTV, Access Control, Remote Sites, VPN, ISP (DSL/DTE/DCE), Satellites, Towers, VoIP, ACL configuration</p>
+</div>
+<div class="card">
+<i class="fas fa-server"></i>
+<h3>System Administration</h3>
+<p>Windows Server, Linux Administration, IT infrastructure, Computer Maintenance</p>
+</div>
+<div class="card">
+<i class="fas fa-code"></i>
+<h3>Programming</h3>
+<p>C, PHP, Java (OOP & Spring Boot), Python</p>
+</div>
+<div class="card">
+<i class="fas fa-laptop-code"></i>
+<h3>Frontend Development</h3>
+<p>HTML, CSS, Bootstrap, JavaScript, React</p>
+</div>
+<div class="card">
+<i class="fas fa-database"></i>
+<h3>Database</h3>
+<p>Database development, Oracle DB Administration, API & endpoint integration</p>
+</div>
+<div class="card">
+<i class="fas fa-tools"></i>
+<h3>IT Support</h3>
+<p>Microsoft Office, Irembo.gov, IT troubleshooting, network monitoring</p>
+</div>
+</div>
+</section>
+
+<!-- Projects -->
+<section>
+<h2 class="section-title">Projects</h2>
+<div class="projects">
+
+<div class="project">
+<h3>One Click Partition</h3>
+<p>Desktop/Backend solution for disk partitioning management and optimization using Java and Spring Boot.</p>
+</div>
+
+<div class="project">
+<h3>IsokoCreditManager</h3>
+<p>Full-stack application managing credit cycles and customer portfolios. Spring Boot backend, React frontend, REST API integration.</p>
+</div>
+
+<div class="project">
+<h3>TradeTrust Network</h3>
+<p>Blockchain-inspired trade platform built with Spring Boot backend and React frontend. Collaborated on API endpoints and data processing.</p>
+</div>
+
+<div class="project">
+<h3>SmartCampus Attendance Service</h3>
+<p>Microservices-based attendance platform. Worked with other students on backend APIs and exposed endpoints for frontend consumption.</p>
+</div>
+
+<div class="project">
+<h3>Data Collection Platform</h3>
+<p>PHP-based platform to collect and manage large datasets efficiently.</p>
+</div>
+
+<div class="project">
+<h3>Smart-Life Trace</h3>
+<p>PHP application for tracking and monitoring systems. Designed backend logic and database integration.</p>
+</div>
+
+</div>
+</section>
+
+<!-- Experience -->
+<section>
+<h2 class="section-title">Experience</h2>
+<p style="text-align:center;font-size:18px;">
+Industrial Attachment – Gihundwe Hospital  
+<br>• Assisted with office computer tasks and documentation  
+<br>• Supported staff with IT systems  
+<br>• Applied networking and troubleshooting skills  
+<br>• Gained experience in professional IT environment
+</p>
+</section>
+
+<!-- Contact -->
+<section>
+<h2 class="section-title">Contact</h2>
+<div class="contact">
+<p><i class="fas fa-envelope"></i> harindintwaliemilien@gmail.com</p>
+<p><i class="fab fa-linkedin"></i> linkedin.com/in/harindintwaliemilien</p>
+<p><i class="fab fa-github"></i> github.com/harindaIT</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 HARINDINTWALI Emilien | Full Stack Developer</p>
+</footer>
+
+<script>
+function scrollToSection(){
+window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
